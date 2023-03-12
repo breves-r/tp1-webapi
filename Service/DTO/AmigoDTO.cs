@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace tp1.DTO
+namespace Service.DTO
 {
     public class AmigoDTO
     {

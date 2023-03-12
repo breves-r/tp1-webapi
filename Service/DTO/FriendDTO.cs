@@ -1,4 +1,4 @@
-﻿namespace tp1.DTO
+﻿namespace Service.DTO
 {
     public class FriendDTO
     {
