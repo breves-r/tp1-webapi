@@ -7,12 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<AmigoContext>(config =>
-{
+builder.Services.AddDbContext<AmigoContext>(config => {
     config.UseSqlServer(builder.Configuration.GetConnectionString("AmigoConnection"));
 });
 

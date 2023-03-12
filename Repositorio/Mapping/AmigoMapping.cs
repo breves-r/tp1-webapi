@@ -23,7 +23,7 @@ namespace Repositorio.Mapping
             builder.Property(x => x.Aniversario)
                     .IsRequired();
 
-            builder.HasMany(x => x.amigos).WithMany(x => x.amigos);
+            builder.HasMany(x => x.friends).WithMany();
         }
     }
 }

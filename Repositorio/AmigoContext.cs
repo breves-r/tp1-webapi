@@ -10,9 +10,9 @@ namespace Repositorio
 {
     public class AmigoContext : DbContext
     {
-        public DbSet<Amigo> amigo { get; set; }
+        public DbSet<Amigo> amigos { get; set; }
       
-        public AmigoContext() { }
+       // public AmigoContext() { }
 
         public AmigoContext(DbContextOptions<AmigoContext> options)
             : base(options) {

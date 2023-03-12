@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Entidade
@@ -20,9 +21,12 @@ namespace Entidade
         [Required(ErrorMessage = "Campo 'Email' Obrigatório")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Campo 'Anversário' Obrigatório")]
         public DateTime Aniversario { get; set; }
+        
+        public ICollection<Amigo> friends { get; set; }
 
-        public ICollection<Amigo> amigos;
+        public Amigo() {
+            this.friends = new List<Amigo>();
+        }
     }
 }
