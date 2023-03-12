@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tp1", "tp1\tp1.csproj", "{241EBB3A-36C5-4E77-869C-18B15E747FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidade", "Entidade\Entidade.csproj", "{A57EF21D-6458-419B-A867-2F15D21B38DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{B803F100-D604-4CA9-833E-02BE78B61E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{241EBB3A-36C5-4E77-869C-18B15E747FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241EBB3A-36C5-4E77-869C-18B15E747FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241EBB3A-36C5-4E77-869C-18B15E747FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241EBB3A-36C5-4E77-869C-18B15E747FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57EF21D-6458-419B-A867-2F15D21B38DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57EF21D-6458-419B-A867-2F15D21B38DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57EF21D-6458-419B-A867-2F15D21B38DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57EF21D-6458-419B-A867-2F15D21B38DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B803F100-D604-4CA9-833E-02BE78B61E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B803F100-D604-4CA9-833E-02BE78B61E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B803F100-D604-4CA9-833E-02BE78B61E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B803F100-D604-4CA9-833E-02BE78B61E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36EFC9B5-8172-4AF0-AE62-54F74A3B6013}
+	EndGlobalSection
+EndGlobal
